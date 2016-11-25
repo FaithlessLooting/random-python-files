@@ -1,0 +1,14 @@
+def getfinalmessage(plaintext2, getTranslatedMessage2):
+    final = ''
+    key3 = []
+    for symbol in getTranslatedMessage:
+        if symbol.isalpha():
+            num5 = ord(symbol)
+            num5 = num5 -96
+            key3.append(num5)
+    for i in range (len(getTranslatedMessage2)):
+        if getTranslatedMessage2[i].isalpha():
+            num6 += key3[i]
+            final += chr(num6)
+    return final
+print(getfinalmessage(getTranslatedMessage, getTranslatedMessage2))

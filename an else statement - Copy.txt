@@ -1,0 +1,20 @@
+
+INP
+STA num1
+INP 
+STA num2
+LDA num2
+SUB num1
+BRZ numisok
+LDA zero
+OUT 
+
+HLT
+numisok LDA one
+OUT 
+
+HLT
+num2 DAT
+num1 DAT
+one DAT 1
+zero DAT 0

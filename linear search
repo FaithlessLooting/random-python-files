@@ -1,0 +1,13 @@
+#linear search
+
+namelist = ["Alan", "Bill", "Chris", "Dave"]
+searchtarget = (input("who are you looking for: "))
+
+i = 0
+while i< len(namelist) and namelist[i] != searchtarget:
+    i = i+1
+if i <len(namelist):
+    print("the name is in position", i)
+else:
+    print ("the name is not on the list")
+

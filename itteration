@@ -1,0 +1,7 @@
+psuedocode for iteration
+
+I = 15
+IF I<20
+	I = I+1
+ELSE
+	PRINT i is I	

@@ -1,0 +1,6 @@
+from random import randint
+a=54
+if a>100:
+    print ("100")
+else:
+    print(a)

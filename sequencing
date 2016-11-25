@@ -1,0 +1,8 @@
+psuedocode for sequencing
+
+INT1 = 20
+INT2 = 30
+INT3 = INT1 + INT2
+PRINT INT1
+PRINT INT2
+PRINT INT 3

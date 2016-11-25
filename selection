@@ -1,0 +1,9 @@
+psuedocode for selection
+A = 10
+B = 20
+
+IF A<B
+	PRINT B is bigger than A, good
+ELSE
+	PRINT somethings gone wrong	
+	

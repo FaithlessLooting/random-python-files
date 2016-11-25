@@ -1,0 +1,55 @@
+PSUEDOCODE
+
+PRINT welcome to the ceaser shifter, would you like to encode(1) or decode(2)? INPUT 
+
+IF INPUT ==1: 
+
+PRINT what would you like to say? INPUT = plaintext 
+
+PRINT how many spaces would you like to move the text? INPUT = shiftnumber 
+PRINT what would you like the keyword to be? INPUT = keyword
+
+chr(plaintext) 
+chr (keyword)
+
+move each letter shiftnumber letters
+move each letter in the new string the corrisponding number of letters 
+
+IF plaintext > 26: 
+
+plaintext= plaintext -26 
+
+ord(plaintext) 
+
+PRINT plaintext 
+
+ELSE: 
+
+ord(plaintext) 
+
+PRINT plaintext
+
+ELSE: 
+
+PRINT what would you like to decode? INPUT = cipher 
+
+cipher = chr(cipher) 
+
+PRINT how many spaces has this been shifted? INPUT = shifted 
+PRINT what was the keyword? INPUT = keyword
+
+move each letter -shifted places 
+move each letter in the new string the corrisponding number of letters backwards
+IF cipher<1: 
+
+cipher=cipher+26 
+
+ord(cipher) 
+
+PRINT cipher 
+
+ELSE 
+
+ord(cipher) 
+
+PRINT cipher
